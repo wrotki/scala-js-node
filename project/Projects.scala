@@ -31,17 +31,17 @@ object Projects {
 
   private[this] val scalaJsSettings = Seq(
     name := projectName,
-    organization := "com.definitelyscala",
+    organization := "io.wrotki",
     homepage := Some(url("https://github.com/DefinitelyScala/scala-js-node")),
     scmInfo := Some(ScmInfo(
       url("https://github.com/DefinitelyScala/scala-js-node"),
       "scm:git:git@github.com:DefinitelyScala/scala-js-node.git",
       Some("scm:git:git@github.com:DefinitelyScala/scala-js-node.git")
     )),
-    bintrayOrganization := Some("definitelyscala"),
+    bintrayOrganization := Some("wrotki"),
     bintrayPackageLabels := Seq("scala", "scala.js"),
     bintrayPackage := "scala-js-node",
-    bintrayRepository := "maven",
+    bintrayRepository := "maven-repo",
     bintrayVcsUrl := Some("git:git@github.com:DefinitelyScala/scala-js-node.git"),
     publishMavenStyle := true,
     licenses += ("MIT", url("http://opensource.org/licenses/MIT")),
